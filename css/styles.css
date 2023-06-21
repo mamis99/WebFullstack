@@ -1,0 +1,26 @@
+/* 
+-Las declaraciones en css se dan de alta por el nombre de la etiqueta (selector) con llaves que contendrán las proiedades con su valor, al ser hojas de estilo en cascada se toma como válido el último valor de cada propiedad
+-Lo que coloques entre las llaves son las propiedades que se aplicarán a tu selector
+*/
+
+h1 {
+    text-align: right; 
+    text-align: center;
+    color: orange;
+}
+/* 
+-Los selectores pueden ir con mayúsculas pero el estándar no lo marca así.
+-Si la propiedad se escribe mal, css no se encarga de corregirte, tu programa corre, simplemente la reconoce como no válida
+-Algunas etiquetas tienen propiedades por valor por default, en este caso h2 está alineado por defecto a la izquierda
+*/
+H2 {
+    text-aling: left;
+    text-align: left;
+}
+/*
+- Se puede poner el código css en una sola línea
+- Se pueden escribir las propiedades en mayúsculas
+*/
+h3 {
+    TEXT-ALIGN: RIGHT; COLOR: RED;
+}
