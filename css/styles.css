@@ -2,12 +2,32 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-size: 16px;
+    font-size: 16px; /* 1rem = 10px */
 }
-h1{
+/* Selecciona todos los h2*/
+h2{
+    color: red;
+    font-size: 3rem;
+}
+/* Selecciona todos los span que hay dentro de todos los h2*/
+h2 span{ 
+    font-size: 2rem;
+} 
+/* Selecciona la clase titulo*/
+.titulo {
     text-align: center;
     font-size: 3.8rem;
 }
-span{
+/* Selecciona todos los span que hay dentro la clase titulo*/
+.titulo span {
     font-size: 2rem;
+}
+/* Selecciona el id subtitulo*/
+/*Los id son únicos, solo debe haber un id subtitulo en el index*/
+#subtitulo {
+    color: purple;
+}
+/* Selecciona todos los span que hay dentro del id subtitulo*/
+#subtitulo span {
+    font-size: 1rem;
 }
