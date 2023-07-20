@@ -2,32 +2,22 @@ html{
     font-size: 62.5%;
 }
 body{
+    background-color: #202020;
+    color:lightcyan;
     font-size: 16px; /* 1rem = 10px */
 }
-/* Selecciona todos los h2*/
-h2{
-    color: red;
-    font-size: 3rem;
-}
-/* Selecciona todos los span que hay dentro de todos los h2*/
-h2 span{ 
+/* Selecciona todos los span que hay dentro la clase titulo en la etiqueta h1
+La siguiente declaración es la que se va a tomar en cuenta porque es la que 
+tiene la mayor especificidad de las 3, a pesar de que sea en cascada
+*/
+h1.titulo span {
     font-size: 2rem;
-} 
+}
+.titulo span {
+    font-size: 2rem;
+}
 /* Selecciona la clase titulo*/
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-}
-/* Selecciona todos los span que hay dentro la clase titulo*/
-.titulo span {
-    font-size: 2rem;
-}
-/* Selecciona el id subtitulo*/
-/*Los id son únicos, solo debe haber un id subtitulo en el index*/
-#subtitulo {
-    color: purple;
-}
-/* Selecciona todos los span que hay dentro del id subtitulo*/
-#subtitulo span {
-    font-size: 1rem;
 }
