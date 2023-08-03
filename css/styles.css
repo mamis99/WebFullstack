@@ -35,6 +35,6 @@ Para usar las variables: var(--variable);
     background-color: var(--secundario);
 }
 .contenedor {
-    width: 12rem;
+    width: 120rem;
     margin: 0 auto;
 }
