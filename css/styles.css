@@ -27,8 +27,9 @@ Para usar las variables: var(--variable);
 .titulo span {
     font-size: 2rem;
 }
-.nav-principal {
-
+.nav-principal a{
+    background-color: var(--primario);
+    display: block;
 }
 .nav-bg {
     background-color: var(--secundario);
