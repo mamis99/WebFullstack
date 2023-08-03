@@ -3,7 +3,7 @@
     --blanco: #ffffff;
     --oscuro: #212121;
     --primario: #6C1D45;
-    --secundario: #FFC107;
+    --secundario: #1E4F6F;
     --gris: #757575;
 }
 
@@ -11,8 +11,8 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: #202020;
-    color:lightcyan;
+    /* background-color: #202020;
+    color:lightcyan; */
     font-size: 16px; /* 1rem = 10px */
     font-family: 'Krub', sans-serif;
 }
@@ -26,4 +26,14 @@ Para usar las variables: var(--variable);
 /*Selecciona el span que está dentro de la clase título*/
 .titulo span {
     font-size: 2rem;
+}
+.nav-principal {
+
+}
+.nav-bg {
+    background-color: var(--secundario);
+}
+.contenedor {
+    width: 12rem;
+    margin: 0 auto;
 }
